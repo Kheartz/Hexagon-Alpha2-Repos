@@ -1,0 +1,8 @@
+ACTIVE:Mage, I need you to take care of something for me. Would you like to help out?
+ACTIVECY:Awesome, I need you to destroy my sister. She's being a being pest!
+ACTIVECN:I need your help. Prepare for battle soon and return to me. I will reward you handsomely.
+STARTED:Did you kill off my sister?
+STARTEDCN:Go on. What are you waiting for?
+STARTEDCYF:You didn't kill them all. I need them all to go away!
+STARTEDCYT:You did well, my good mage. Time to treat you to a nice dinner.
+DONE:Thanks, murderer!

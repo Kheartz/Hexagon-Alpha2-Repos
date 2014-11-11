@@ -1,0 +1,8 @@
+ACTIVE:Hello, Mage. I've seen to have lost my Tome of Battle somewhere deep south of this land. Can you retrieve it for me?
+ACTIVECY:Splendid! I'll pay you handsomely! Can you make it quick though? I'm kinda hungry...
+ACTIVECN:Thank you, anyways...Have a safe journey!
+STARTED:Hello, again Mage! Have you found my book?
+STARTEDCN:No problem. Just keep looking if you can. In the meantime, I need to figure out breakfast!
+STARTEDCYF:I'm not sure what kind of book YOU'RE talking about...But mine was awesome...
+STARTEDCYT:Yay! You've found it. Just in time too, I made some Eggs and Bacon! ...I seem to not have enough for you, but I hope this will do! Here's a small potion. Give my regards Mr. Mario, soon. I think he may have something in store for you.
+DONE:Thanks for your help!

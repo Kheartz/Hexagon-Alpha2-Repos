@@ -1,0 +1,84 @@
+$#include "Quest.h"
+
+class Quest
+{
+
+public:
+	Quest();
+	virtual void Satisfy();
+	virtual void completeQuest(){ bCompleted = true; }
+	
+	virtual void setStartNPC(NPC* n) { startNPC = n; }
+	virtual NPC* getStartNPC(){ return startNPC; }
+	virtual void setEndNPC(NPC* n) { endNPC = n; }
+	virtual NPC* getEndNPC(){ return endNPC; }
+
+	virtual void setName(char* Name){ name = Name; }
+	virtual char* getName(){ return name; }
+	virtual void setExamine(char* Examine){ examine = Examine; }
+	virtual char* getExamine(){ return examine; }
+
+	virtual bool isActive(){ return bActive; }
+	virtual bool isStarted(){ return bStarted; }
+	virtual bool isSatisfied(){ return bSatisfied; }
+	virtual bool isCompleted(){ return bCompleted; }
+
+	virtual void setGiveXP(int xp){ xpGive = xp; }
+	virtual int getGiveXP(){ return xpGive; }
+	virtual void activate(){ bActive = true; }
+	virtual void start();
+	virtual void complete();
+	virtual void update();
+
+	virtual void setActiveConvo(char* s){ activeConvo = s; }
+	virtual void setActivecyConvo(char* s){ activecyConvo = s; }
+	virtual void setActivecnConvo(char* s){ activecnConvo = s; }
+	virtual void setStartedConvo(char* s){ startedConvo = s; }
+	virtual void setStartedcnConvo(char* s){ startedcnConvo = s; }
+	virtual void setStartedcyfConvo(char* s){ startedcyfConvo = s; }
+	virtual void setStartedcytConvo(char* s){ startedcytConvo = s; }
+	virtual void setDoneConvo(char* s){ doneConvo = s; }
+	virtual void printConversations() const;
+
+	virtual int getType(){ return type; } //MAKE THIS ENUM
+
+	virtual char* getActiveConvo(){ return activeConvo; }
+	virtual char* getActivecyConvo(){ return activecyConvo; }
+	virtual char* getActivecnConvo(){ return activecnConvo; }
+	virtual char* getStartedConvo(){ return startedConvo; }
+	virtual char* getStartedcnConvo(){ return startedcnConvo; }
+	virtual char* getStartedcyfConvo(){ return startedcyfConvo; }
+	virtual char* getStartedcytConvo(){ return startedcytConvo; }
+	virtual char* getDoneConvo(){ return doneConvo; }
+
+	virtual void addPreReqQ(Quest* q){ preReqQ.push_back(q); }
+	virtual bool preReqsCompleted();
+
+	virtual void pushItemsGive(char* i){ itemsGive.push_back(i); }
+	
+};
+
+class Quest_GoTo_NPC : public Quest
+{
+public:
+	Quest_GoTo_NPC();
+	NPC* getTargetNPC(){ return targetNPC; }
+	void setTargetNPC(NPC* tar){ targetNPC = tar; }
+};
+class Quest_Deliver : public Quest
+{
+public:
+	Quest_Deliver();
+	Item* getItem(){ return item; }
+	void setItem(Item* i){ this->item = i; }
+
+
+};
+
+class Quest_GoTo_Area : public Quest
+{
+public:
+	Quest_GoTo_Area();
+	void setTargetArea(float X, float Y, int W, int H);
+};
+

@@ -1,0 +1,19 @@
+Oxygen 2 Hydrogen 4 Water 2 Energy 5
+
+Carbon 6 Hydrogen 12 Oxygen 6 Sugar 1
+
+Hydrogen 1 Chlorine 1 Acid 1
+
+Carbon 6 Graphite 1
+
+Sodium 1 Chloride 1 Salt 1
+
+
+
+..............THE CRAZY SHIT.............
+
+
+Carbon 60 DiamondPiece 1 Gibbs 60
+
+DiamondPiece 60 Diamond 1 Gibbs 90
+

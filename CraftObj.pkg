@@ -1,0 +1,6 @@
+$#include "Item.h"
+
+struct CraftObj{
+Item* item;
+int copyno;
+};

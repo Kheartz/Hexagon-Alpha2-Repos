@@ -1,0 +1,8 @@
+ACTIVE:Thank you again for helping me with my research. I have another quick favor to ask of you. Are you up for another delivery?
+ACTIVECY:Great! I have refined this Carbon particle, but for some reason I can't seem to get it working. I need you to take it to the Alchemist, Baurn, in the Sewers for me.
+ACTIVECN:It's okay. Go check out the area for a while. In the meantime, I will try to refine this particle.
+STARTED:Do you have a package for me?
+STARTEDCN:Okay, just making sure!
+STARTEDCYF:I see nothing of interest.
+STARTEDCYT:Thank you for this. I will get this to the laboratory as soon as possible!
+DONE:Thanks for the particle. I hope you have fun with my little gift.

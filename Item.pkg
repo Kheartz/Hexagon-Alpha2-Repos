@@ -1,0 +1,21 @@
+$#include "Entity.h"
+$#include "Item.h"
+
+class Item : public Entity{
+	Item(float x, float y, int w, int h, char* name, char* examine, char* filename);
+	Item(char* name, char* type);
+	Item(char* name);
+	const char* getScript(){ return scriptFile.c_str(); }
+	char* getExamine(){ return examine; }
+	bool isQuestItem(){ return bIsQuestItem; }
+	bool isPublic(){ return bIsPublic; }
+	void setPublic(bool p){ bIsPublic = p; }
+
+	int getNumberOf(){return numberOf;}
+	void changeNumBy(int n){ numberOf += n; }
+	void incrNum(){ numberOf++; }
+	void decrNum(){ numberOf--; }
+
+	bool isStackable(){ return bIsStackable; }
+	void setStackable(bool stackable){ bIsStackable = stackable; }
+};

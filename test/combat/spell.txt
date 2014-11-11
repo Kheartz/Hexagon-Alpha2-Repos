@@ -1,0 +1,23 @@
+class Cast
+{
+private:
+char* name;
+void Action(); //use script
+public:
+Cast(char* name)
+};
+
+class Spell : public Entity, public Cast
+{
+private:
+int damage;
+std::string script;
+
+public:
+Spell(float W, float H, char* name);
+~Spell();
+
+int getDamage(){ return damage; }
+
+
+};

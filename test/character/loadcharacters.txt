@@ -1,0 +1,7 @@
+mario.png
+bunny.png
+baurn.png
+elliot.png
+delphine.png
+coa.png
+ayne.png

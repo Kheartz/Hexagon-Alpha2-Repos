@@ -1,0 +1,8 @@
+$#include "NPC.h"
+$#include "Character.h"
+
+class NPC : public Character{
+public:
+	NPC(float X, float Y, int W, int H, char* name, int HP, int MP, char* filename);
+	void setConversation(char* c);
+};

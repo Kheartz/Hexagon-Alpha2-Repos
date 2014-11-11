@@ -1,0 +1,10 @@
+$#include "QuestManager.h"
+$#include "Quest.h"
+
+class QuestManager{
+	QuestManager();
+	void addQuest(Quest* q);
+	void deleteQuest(char* q);
+	void setConvo(Quest* q, char* name);
+	void Update();
+};

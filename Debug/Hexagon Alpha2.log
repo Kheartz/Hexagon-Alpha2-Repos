@@ -1,0 +1,87 @@
+﻿Build started 11/10/2014 7:22:36 PM.
+     1>Project "D:\Desktop\Dev\Projects\Hexagon Alpha2\Hexagon Alpha2\Hexagon Alpha2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\TGUI-0.6.6\include" /ID:\TMXLoader\include\ /I"D:\SFML\SFML-2.1\include" /I"D:\Desktop\tolua-5.2.0\include" /I"D:\Program Files (x86)\Lua\5.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4273 /analyze- /errorReport:prompt Character.cpp CraftTable.cpp Enemy.cpp Entity.cpp EntityManager.cpp GUI.cpp Game.cpp Item.cpp Level.cpp NPC.cpp Player.cpp Quest.cpp QuestManager.cpp Textbox.cpp Warp.cpp main.cpp tolua_Character.cpp tolua_Entity.cpp tolua_EntityManager.cpp tolua_Item.cpp tolua_NPC.cpp tolua_Player.cpp tolua_Quest.cpp tolua_QuestManager.cpp
+         Level.cpp
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(13): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(64): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(70): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(184): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(208): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(209): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(420): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\level.cpp(421): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         tolua_QuestManager.cpp
+         tolua_Quest.cpp
+         tolua_Entity.cpp
+         tolua_Character.cpp
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\tolua_character.cpp(816): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         main.cpp
+         Warp.cpp
+         QuestManager.cpp
+         Quest.cpp
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\quest.cpp(60): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\quest.cpp(61): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Player.cpp
+         NPC.cpp
+         Item.cpp
+         Game.cpp
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\game.cpp(15): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+         GUI.cpp
+         Entity.cpp
+         Enemy.cpp
+         CraftTable.cpp
+     1>d:\desktop\dev\projects\hexagon alpha2\hexagon alpha2\crafttable.cpp(7): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Character.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         tolua_Player.cpp
+         tolua_NPC.cpp
+         tolua_Item.cpp
+         tolua_EntityManager.cpp
+         Textbox.cpp
+         EntityManager.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\Dev\Projects\Hexagon Alpha2\Debug\Hexagon Alpha2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\SFML-2.1\Libs\Debug" /LIBPATH:"D:\TGUI-0.6.6\lib" /LIBPATH:"D:\Desktop\tolua-5.2.0\lib" /LIBPATH:"D:\STP\extlibs\libs-win32" /LIBPATH:"D:\SFML\SFML-2.1\Libs\Debug" /LIBPATH:"D:\Program Files (x86)\Lua\5.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "tgui-d.lib" lua5.2.lib zdll.lib tolua++.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Desktop\Dev\Projects\Hexagon Alpha2\Debug\Hexagon Alpha2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\Dev\Projects\Hexagon Alpha2\Debug\Hexagon Alpha2.lib" /MACHINE:X86 Debug\pugixml.obj
+         Debug\Character.obj
+         Debug\CraftTable.obj
+         Debug\DebugShape.obj
+         Debug\Enemy.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\Game.obj
+         Debug\GUI.obj
+         Debug\Item.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MapLayer.obj
+         Debug\MapLoaderPrivate.obj
+         Debug\MapLoaderPublic.obj
+         Debug\MapObject.obj
+         Debug\NPC.obj
+         Debug\Player.obj
+         Debug\QuadTreeNode.obj
+         Debug\Quest.obj
+         Debug\QuestManager.obj
+         Debug\ResourceManager.obj
+         Debug\stdafx.obj
+         Debug\Textbox.obj
+         Debug\Timer.obj
+         Debug\tolua_Character.obj
+         Debug\tolua_CraftTable.obj
+         Debug\tolua_Entity.obj
+         Debug\tolua_EntityManager.obj
+         Debug\tolua_Item.obj
+         Debug\tolua_NPC.obj
+         Debug\tolua_Player.obj
+         Debug\tolua_Quest.obj
+         Debug\tolua_QuestManager.obj
+         Debug\Warp.obj
+         Hexagon Alpha2.vcxproj -> D:\Desktop\Dev\Projects\Hexagon Alpha2\Debug\Hexagon Alpha2.exe
+     1>Done Building Project "D:\Desktop\Dev\Projects\Hexagon Alpha2\Hexagon Alpha2\Hexagon Alpha2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.96

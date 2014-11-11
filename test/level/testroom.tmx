@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Based" tilewidth="32" tileheight="32">
+  <image source="../../../../../../../Program Files (x86)/Tiled/Tilesets/RPG_Maker_VX_RTP_Tileset_by_telles0808.png" width="1024" height="2016"/>
+ </tileset>
+ <layer name="Floor" width="30" height="30">
+  <properties>
+   <property name="AREA" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzTENAAAMw7Dyh1OEI7B30g5Hyu0m6fFb1yaXy+Vyudw/riTpZwNyeTj0
+  </data>
+ </layer>
+ <layer name="OnFloor" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPAlkYGIKAOBiIQ1gIKMYC4snQAwKFQH1FQFwMxCVkmjEKBg7cHqA4G2n2joJRMApGwWAD9aPl4SgYBaNgFAwpAABkQwa4
+  </data>
+ </layer>
+ <objectgroup name="RIGID">
+  <object x="256" y="0" width="128" height="64"/>
+  <object x="0" y="160" width="32" height="96"/>
+ </objectgroup>
+ <objectgroup name="WARP">
+  <object x="768" y="0" width="32" height="32">
+   <properties>
+    <property name="WarpToX" value="1500"/>
+    <property name="WarpToY" value="5000"/>
+   </properties>
+  </object>
+  <object x="768" y="544" width="32" height="32">
+   <properties>
+    <property name="WarpToX" value=""/>
+    <property name="WarpToY" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="AREA">
+  <object x="0" y="0" width="704" height="480"/>
+ </objectgroup>
+</map>

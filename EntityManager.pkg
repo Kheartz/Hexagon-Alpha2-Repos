@@ -1,0 +1,17 @@
+$#include "EntityManager.h"
+
+class EntityManager{
+
+	EntityManager();
+	
+	void Add(Entity*);
+	void Remove(int index);
+	
+	int getIndex(char* name);
+	NPC* getNPC(char* name);
+	Item* getItem(char* name);
+	int getSize() { return list.size(); }
+
+	static EntityManager* getInstance();
+
+};

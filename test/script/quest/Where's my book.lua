@@ -1,0 +1,1 @@
+player:setHP(2)
